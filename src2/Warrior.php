@@ -14,7 +14,11 @@
         {
             return $this->strength*2;
         }
-        
+
+        public function attack(Character $strength)
+        {
+            return 100 - $this->strength *2;
+        }
     }
 
 ?>

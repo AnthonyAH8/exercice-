@@ -1,6 +1,6 @@
 <?php
 
-class Character
+abstract class Character
 {
     private $name;
     private $life;
